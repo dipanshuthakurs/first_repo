@@ -1,8 +1,3 @@
-userPrompt = input("Please enter")
-
-if userPrompt == "help":
-    print("This tool is useful for managing your AWS resources.")
-
 
 def sumTwoNumbers(a, b):
     return a + b
@@ -11,9 +6,8 @@ def sumTwoNumbers(a, b):
 def subtractTwoNumbers(a, b):
     return a - b
 
-firstNumber = 3
-secondNumber = 2
-
+firstNumber = int(input())
+secondNumber = 3
 print(f"The sum of {firstNumber} and {secondNumber} is: {sumTwoNumbers(firstNumber, secondNumber)}")
 
 a = int(input("Enter first number: "))

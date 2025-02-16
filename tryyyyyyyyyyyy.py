@@ -1,4 +1,4 @@
-userPrompt = input("Please enter")
+userPrompt = input("Please enter the input")
 
 if userPrompt == "help":
     print("This tool is useful for managing your AWS resources.")
@@ -28,3 +28,7 @@ print(matrix2)
 
 result =matrix @ matrix2
 print(result)
+
+num1 = int(input("Enter first numebr")
+num2 = int(input("Enter second number"))
+print(num1*num2)
